@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="action_settings">Inställningar</string>
+    <string name="btn_newQuote">Nytt Citat</string>
+    <string name="txt_Quote">Citat</string>
+    <string-array name="array_quotes">
+        <item>Kakan är en lögn.</item>
+        <item>Har man inte rätt till fruken av sitt anletes svett?</item>
+        <item>Rätt person på fel plats kan göra all skillnad i världen.</item>
+    </string-array>
+</resources>

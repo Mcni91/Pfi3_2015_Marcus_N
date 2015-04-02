@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pfi3_2015_Marcus_N</string>
+
+    <string name="btn_newQuote">New Quote</string>
+    <string name="txt_Quote">Quote</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="array_quotes">
+        <item>The cake is a lie.</item>
+        <item>Is a man not entitled to the sweat of his brow?</item>
+        <item>The right man in the wrong place can make all the difference in the world.</item>
+    </string-array>
+</resources>
