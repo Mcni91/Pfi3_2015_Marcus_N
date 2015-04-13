@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Skånetrafiken</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- MainScreen Strings -->
+    <string name="journey_planner">Journey planner</string>
+    <string name="timetables">Timetables</string>
+    <string name="departures">Departures</string>
+    <string name="tickets">Tickets</string>
+
+    <!-- Journey planner Strings -->
+    <string name="btn_Favorites">Favorites</string>
+    <string name="btn_Subscriptions">Subscriptions</string>
+    <string name="title_Search">Custom search:</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_edit">Edit</string>
+    <string name="radio_Arrival">Arrival</string>
+    <string name="radio_departure">Departure</string>
+    <string name="txt_to">To</string>
+    <string name="txt_from">From</string>
+    <string name="txt_timedate">Time/date:</string>
+    <string name="txt_transportmode">Transport mode</string>
+    <string name="txt_now">Now</string>
+    <string name="txt_any">Any</string>
+</resources>
