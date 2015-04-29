@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="se.mah.assignment4.PopupFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/name"
+        android:id="@+id/txt_popup_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:padding="16dp"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img_popup"
+        android:layout_below="@+id/txt_popup_name"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/profilbild_100x100" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/txt_popup_name"
+        android:layout_alignBottom="@+id/img_popup"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/img_popup"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc"
+            android:id="@+id/txt_popup_text" />
+    </ScrollView>
+</RelativeLayout>
